@@ -1,0 +1,13 @@
+{
+  "name": "LEGEND",
+  "description": "This card gives you the right to collect TDAO transfer fees indefinitely.",
+  "image": "ipfs://ipfs/QmWWy7CdiAdeVMM8ekCJrcvUzwqY9P7xEKTxjsmL4pHtmN",
+  "attributes": [
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Rewards",
+      "value": 18
+    },
+    { "trait_type": "Contributed", "value": "20,000 TRIB" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "IMMORTAL",
+  "description": "This card gives you the right to collect TDAO transfer fees indefinitely.",
+  "image": "ipfs://ipfs/QmV18muXUe5XQ9UpZHobj5euBms4YYkMoxAAHDDSuEDnQv",
+  "attributes": [
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Rewards",
+      "value": 36
+    },
+    { "trait_type": "Contributed", "value": "100,000 TRIB" }
+  ]
+}

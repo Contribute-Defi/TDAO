@@ -1,0 +1,13 @@
+{
+  "name": "ALCHEMIST",
+  "description": "This card gives you the right to collect TDAO transfer fees indefinitely.",
+  "image": "ipfs://ipfs/QmRE1BQ4dQU49mqYc4tFQEHQbGxje4qpaJEVjsUzdJuuGt",
+  "attributes": [
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Rewards",
+      "value": 3.4
+    },
+    { "trait_type": "Contributed", "value": "5,000 TRIB" }
+  ]
+}

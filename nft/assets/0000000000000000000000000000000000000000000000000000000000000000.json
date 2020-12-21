@@ -1,0 +1,13 @@
+{
+  "name": "VISIONARY",
+  "description": "This card gives you the right to collect TDAO transfer fees indefinitely.",
+  "image": "ipfs://ipfs/QmVv6ts5pyUAu8HsrK3jbJNehpdxkjvSCANBmaxKpUzRnS",
+  "attributes": [
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Rewards",
+      "value": 0.2
+    },
+    { "trait_type": "Contributed", "value": "500 TRIB" }
+  ]
+}

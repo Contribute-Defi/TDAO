@@ -1,0 +1,13 @@
+{
+  "name": "VOYAGER",
+  "description": "This card gives you the right to collect TDAO transfer fees indefinitely.",
+  "image": "ipfs://ipfs/QmanExMM9E9QQ5P8MQFxMEDAQ4g4zUWVwLHpGPbUMJqxhv",
+  "attributes": [
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Rewards",
+      "value": 8.4
+    },
+    { "trait_type": "Contributed", "value": "10,000 TRIB" }
+  ]
+}

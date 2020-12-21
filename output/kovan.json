@@ -1,0 +1,19 @@
+{
+  "NFT": "0x55ffE77F4b2742FF024b678Cc242513bd34D9953",
+  "TDAO": "0xFB1037C3E655D813Ea946DE94C88cFaf161c22B2",
+  "TRIG": "0xB1762FD42639C02bE50e9CE3d31Cb86D651eA2Cb",
+  "GuardianTimelock": "0xb4f690dBC41C560b832E2f25caD545951488F04d",
+  "Guardian": "0x0e286C6E75CE4490f70E92cc8CcafB3dA42F4e2e",
+  "GovernorTimelock": "0x60f1457aa66369413d6c438296a3f814899526fa",
+  "Governor": "0xe9505381b601b6db8ed225c494769908b8affb2c",
+  "LockedLiquidityEvent": "0x2c77b40053633aa4db6793ab975ddb41cd0efd0f",
+  "IUniswapV2Pair": "0x9618610d7c0530b6fadbe07c815141f6114426e5",
+  "NFTRewardsVault": "0x3c0068e71160920bd894e1e6f7f4200429f74413",
+  "TrigRewardsVault": "0xbe58d7710ac5f5e7335b6c9cbd5fb4b0781ca4f3",
+  "RewardsVault": "0x16a58986d1d19b2d928dfc1b32770f959a0c613c",
+  "TreasuryVault": "0xab171f33fc9b6ce927b905b3870fbf29fdf2bfd8",
+  "FeeSplitter": "0x70fffcdb0abce4fc11a1163326dfaa8b449d2c49",
+  "FeeController": "0xdea8e111b3e88fd8e4c65ee17fdf770a3e6ae881",
+  "Treasury": "0xb6f035f4c24f5226beb76423b1012df42c6e2349",
+  "UIView": "0x4cd10d49a043c337ada37b0e844f4c8d246a5cac"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "EXPLORER",
+  "description": "This card gives you the right to collect TDAO transfer fees indefinitely.",
+  "image": "ipfs://ipfs/QmXmbtmxPDVeEFnVkpUAnqVg5i52ANNvCTQEzdWCBPZ8Xr",
+  "attributes": [
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Rewards",
+      "value": 1
+    },
+    { "trait_type": "Contributed", "value": "2,000 TRIB" }
+  ]
+}

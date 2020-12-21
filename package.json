@@ -1,0 +1,43 @@
+{
+  "name": "TGOV",
+  "version": "1.0.0",
+  "description": "Governance for the Contribute Project",
+  "main": "index.js",
+  "author": "Kento Sadim",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^3.2.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "concurrently": "^5.3.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "ganache-time-traveler": "^1.0.15",
+    "hardhat": "^2.0.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.1",
+    "web3": "^1.3.0"
+  },
+  "scripts": {
+    "deploy": "hardhat deploy --chain fork --network",
+    "deploy:main": "hardhat deploy --chain mainnet --network --network mainnet",
+    "deploy:kovan": "hardhat deploy --chain kovan --network --network kovan",
+    "dev": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 4 && yarn deploy hardhat)\"",
+    "simulate-0": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 8 && hardhat simulate --seq 0 --network localhost)\"",
+    "simulate-1": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 8 && hardhat simulate --seq 1 --network localhost)\"",
+    "simulate-2": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 8 && hardhat simulate --seq 2 --network localhost)\"",
+    "simulate-3": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 8 && hardhat simulate --seq 3 --network localhost)\"",
+    "simulate-4": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 8 && hardhat simulate --seq 4 --network localhost)\"",
+    "simulate-5": "concurrently \"hardhat node --verbose --hostname 0.0.0.0\" \"(sleep 8 && hardhat simulate --seq 5 --network localhost)\"",
+    "test": "concurrently  \"hardhat test ./test/test.js\" \"hardhat test ./test/test_feeSplitter.js\" \"hardhat test ./test/test_governance_1.js\" \"hardhat test ./test/test_governance_2.js\" \"hardhat test ./test/test_liquidityLockedEvent.js\" \"hardhat test ./test/test_nftRewardsVault.js\" \"hardhat test ./test/test_routerLLE.js\" \"hardhat test ./test/test_trigRewardsVault.js\""
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cli-table": "^0.3.4",
+    "console2": "^2.3.14",
+    "dotenv": "^8.2.0"
+  }
+}
