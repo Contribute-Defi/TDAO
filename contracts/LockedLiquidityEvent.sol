@@ -414,7 +414,7 @@ contract LockedLiquidityEvent is ERC1155Holder {
       uint256 _index = i - 1;
 
       if (nftSupply[_index] == 0) {
-        break;
+        continue;
       }
 
       while (_remaining >= nftMin[_index]) {
