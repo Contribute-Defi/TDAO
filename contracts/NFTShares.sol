@@ -171,6 +171,7 @@ contract NFTShares is ERC20, ERC1155Holder {
     if (totalDeposited == NFT_PRICE) {
       tokensPerUnit = totalSupply().mul(1e18).div(totalDeposited);
 
+      trib.approve(address(lle), totalDeposited);
       lle.addLiquidity(totalDeposited);
     }
 
